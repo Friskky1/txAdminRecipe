@@ -160,11 +160,6 @@ tasks:
     src: https://github.com/QBCoreZ/qb-radialmenu
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weathersync
-    ref: main
-    src: https://github.com/QBCoreZ/qb-weathersync
-
-  - action: download_github
     dest: ./resources/[qb]/qb-skillbar
     ref: main
     src: https://github.com/QBCoreZ/qb-skillbar

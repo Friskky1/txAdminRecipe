@@ -38,13 +38,11 @@ tasks:
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/oxmysql.zip
-
-  - action: download_file
-    path: ./tmp/menuv.zip
-    url: https://github.com/QBCoreZ/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip
-  - action: unzip
+    
+  - action: download_github
     dest: ./resources/[standalone]/menuv
-    src: ./tmp/menuv.zip
+    ref: master
+    src: https://github.com/QBCoreZ/menuv
 
   - action: download_github
     dest: ./resources/[standalone]/bob74_ipl
@@ -110,7 +108,7 @@ tasks:
     # MAPS
   - action: download_github
     dest: ./resources/[defaultmaps]/[The-Apocalypse-Project]
-    ref: main
+    ref: master
     src: https://github.com/QBCoreZ/The-Apocalypse-Project
 
 

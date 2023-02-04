@@ -1,8 +1,8 @@
 $engine: 3
 $onesync: on
 name: QBCoreZ Framework
-version: 2.2.4
-author:  TBD    [JericoFx & Kakarot & Hamy]
+version: 0.0.0
+author:  TBD
 description:  Zombies 
 
 tasks:
